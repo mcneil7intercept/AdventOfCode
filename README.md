@@ -2,7 +2,7 @@
 
 Repo for Advent of Code 2021 that I am using as coding practice and trying out some new languages and techniques I haven't used a whole lot. 
 
-My name is Jonathan McNeil, I am a software engineering, with most of my expierence primarily in the C#/.Net world at a large global engineering company.  I am currently seeing employment that will allow me to work in Singapore where I currently am visiting my beautiful fiance.  I very much emjoy puzzles, and want to expand my current knowledge as I look for jobs.  
+My name is Jonathan McNeil, I am a software engineer with most of my expierence in the C#/.NET/Windows world at a large global engineering company.  I am currently seeing employment that will allow me to work in Singapore where I currently am visiting my beautiful fiance.  I very much emjoy puzzles, and want to expand my current knowledge as I look for jobs. 
 
 Feel free to show me how to do things in better, cleaner or faster ways. This solely exists for me (and I guess potentially you) to learn! 😸.  
 
