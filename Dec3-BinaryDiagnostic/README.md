@@ -2,13 +2,16 @@ Link to instructions (sorry got tired of bad formatting):
 
     https://adventofcode.com/2021/day/3
 
+
+Part 1 ideas:
+
 First ideas, can either break each digit into it's own array and then count instances of non-zero numbers. (STILL DOABLE BUT PROBABLY SLOWER)
 
 OR 
 
 I think you can also use bit shifting and use just one array of values. (CHOSEN PATH)
 
-My part 1 solution in written form: (I suck at these write ups)
+Part 1 solution in written form: (I suck at these write ups)
 
 1. Split input into a list of binary numbers
 2. Assume each number has the same bit width called num_bits.
