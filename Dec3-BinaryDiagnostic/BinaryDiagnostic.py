@@ -1,4 +1,3 @@
-
 def Part1(binary_string_list):
     input_length = len(binary_string_list)
     num_bits = len(binary_string_list[0])
@@ -11,7 +10,6 @@ def Part1(binary_string_list):
 
     for i in range(num_bits):
         cur_shift = shift>>i
-        cleared = [number&cur_shift for number in numbers]
         not_zero = sum(map(lambda x : x > 0, [number&cur_shift for number in numbers]))
         if not_zero > (input_length - not_zero):
             gamma |= cur_shift
@@ -19,6 +17,9 @@ def Part1(binary_string_list):
 
     epsilon = (1 << num_bits) - 1 - gamma
     return gamma, epsilon
+
+def Part2(binary_string_list):
+    return
 
 if __name__ == "__main__":
     binary_string_list = open("input.txt").read().splitlines()
